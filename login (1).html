@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Cliente</title>
+    <link rel="shortcut icon" href="logo11.png" type="image/x-icon">
+    <link rel="stylesheet" href="style (login).css">
+</head>
+
+<body>
+    <h1>FAÇA SEU LOGIN AGORA!</h1>
+    <main class="container">
+        <h2>LOGMED</h2>
+        <form id="login-form">
+            <div class="caixa">
+                <label for="username"> Nome *:</label>
+                <input type="CPF" id="username" name="username" placeholder="Digite seu nome de usuário aqui">
+            </div>
+            <div class="caixa">
+                <label for="password"> Senha *:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha aqui">
+            </div>
+            <button type="button" class="caixa03">Entrar</button><br>
+            <a href="#" target="_blank"><br>Esqueci minha senha</a>
+            <p>Primeiro acesso?<a href="novoacesso.html" target="_blank">Clique aqui</a></p>
+        </form>
+    </main>
+    <div id="login-result" class="hidden">
+        <p id="result-message"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+
+</html>

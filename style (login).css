@@ -1,0 +1,122 @@
+body {
+    background-image: url('pexels-tima-miroshnichenko-5452201.png'), url('./bg-icon.png'), url('./img-canto.png');
+    background-color: #0056b3;
+    background-position: bottom left, 0%, bottom right;
+    background-repeat: no-repeat, repeat, no-repeat;
+    background-size: 30%, cover, 60vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px;
+}
+
+input[type="CPF"],
+input[type="password"] {
+    width: 90%;
+    padding: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    align-self: baseline;
+    cursor: default;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 20px 15px #0000009c;
+    width: 400px;
+    height: 350px;
+    padding: 100px 50px;
+    margin: auto;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    width: 300px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkred;
+}
+
+img {
+    position: absolute;
+    right: 970px;
+    top: 200px;
+}
+
+/* 
+.imgcanto {
+    left: 965px;
+    top: 350px;
+}
+
+.simbolos {
+    height: 100px;
+    width: 100px;
+    color: aqua;
+} */
+
+.imgcanto {
+    height: 100px;
+    width: 100px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 0px;
+    display: flex;
+    padding-top: -50px;
+}
+
+.logo {
+    margin: top;
+}
+
+.hiden {
+    display: none;
+}
